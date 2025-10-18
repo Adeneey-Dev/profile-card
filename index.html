@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MY PROFILE CARD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="brand">Adeneey_Dev</div>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="hero-left">
+          <p class="role">Full Stack Software Engineer</p>
+          <p class="lead">
+            Building reliable APIs, clean front-ends and simple developer
+            experiences. I like building clean, responsive and user-friendly web
+            applications
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="https://github.com/Adeneey-Dev">See work</a>
+            <a
+              class="btn ghost"
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=oyewolesaheed638@gmail.com"
+              >Hire me</a
+            >
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <!-- Profile Card (Stage 0 required fields) -->
+          <article
+            data-testid="test-profile-card"
+            class="card"
+            aria-label="Profile card"
+          >
+            <button
+              id="card-theme-toggle"
+              class="small-toggle"
+              aria-label="Toggle card theme"
+            >
+              ⭘
+            </button>
+
+            <figure>
+              <img
+                id="avatar-img"
+                data-testid="test-user-avatar"
+                src="image/IMG_20251018_232314.jpg"
+                alt="Professional headshot of Oyewole Saheed"
+              />
+            </figure>
+
+            <header>
+              <h2 data-testid="test-user-name">OYEWOLE SAHEED</h2>
+              <p data-testid="test-user-bio">
+                Frontend & backend — small services, clean UX, pragmatic
+                testing.
+              </p>
+            </header>
+
+            <div class="meta">
+              <div class="time" role="status" aria-live="polite">
+                <span data-testid="test-user-time">0</span>
+              </div>
+
+              <nav
+                data-testid="test-user-social-links"
+                class="card-social"
+                aria-label="Profile social links"
+              >
+                <a
+                  data-testid="test-user-social-github"
+                  href="https://github.com/Adeneey-Dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+                <a
+                  data-testid="test-user-social-linkedin"
+                  href="https://www.linkedin.com/in/oyewole-saheed/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+                <a
+                  data-testid="test-user-social-twitter"
+                  href="https://twitter.com/King_Oye"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+                <a
+                  data-testid="test-user-social-facebook"
+                  href="https://www.facebook.com/profile.php?id=100080045601260"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </nav>
+            </div>
+
+            <section>
+              <h3>HOBBIES</h3>
+              <ul data-testid="test-user-hobbies">
+                <li>Reading</li>
+                <li>Research</li>
+                <li>Sport</li>
+                <li>Coding</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>DISLIKES</h3>
+              <ul data-testid="test-user-dislikes">
+                <li>Laziness</li>
+                <li>Slow Interest</li>
+                <li>Incompetence</li>
+              </ul>
+            </section>
+
+            <div class="card-controls">
+              <label class="vis" for="avatar-file">Upload Picture</label>
+              <input
+                id="avatar-file"
+                type="file"
+                accept="image/*"
+                aria-label="Upload avatar"
+              />
+            </div>
+          </article>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <small>Made by Oyewole — © <span id="year"></span></small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

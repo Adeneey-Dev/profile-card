@@ -39,6 +39,9 @@ A simple, **responsive** and **accessible** Profile Card built with **HTML, CSS,
 │── script.js
 │── README.md
 
+## 🌍 Live Demo
+https://oyewole-profile-card.netlify.app/
+
 ## ✨ Credits
 
 Built by Adeneey_Dev — Full Stack Software Engineer
